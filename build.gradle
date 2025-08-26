@@ -4,7 +4,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.diffplug.spotless:spotless-plugin-gradle:6.25.0'
+        classpath 'com.diffplug.spotless:spotless-plugin-gradle:6.25.0' // 최신 안정 버전
     }
 }
 
@@ -21,6 +21,7 @@ spotless {
     java {
         // Google Java Format 사용
         googleJavaFormat()
+        indentWithSpaces(4) // 4스페이스 들여쓰기 강제
     }
 }
 

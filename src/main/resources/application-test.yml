@@ -1,11 +1,16 @@
 spring:
   jpa:
     hibernate:
-      ddl-auto: none # 테스트 시 테이블 자동 생성 및 삭제
+      ddl-auto: create-drop # CI에서 테이블 자동 생성 및 삭제
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQL8Dialect # MySQL 8 Dialect 명시
   datasource:
-    url: jdbc:mysql://localhost:3306/cou_commerce
-    username: root
-    password: root
+    url: jdbc:mysql://localhost:3306/cou_commerce # CI 서비스의 DB 이름
+    username: root # CI 서비스의 사용자 이름
+    password: root # CI 서비스의 비밀번호
     driver-class-name: com.mysql.cj.jdbc.Driver
   data:
     redis:

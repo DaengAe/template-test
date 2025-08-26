@@ -113,11 +113,6 @@
         <module name="UpperEll"/>
 
         <!-- Indentation -->
-        <module name="RegexpSinglelineJava">
-            <property name="format" value="^\t* "/>
-            <property name="message" value="[indentation-tab] Indent must use tab characters"/>
-            <property name="ignoreComments" value="true"/>
-        </module>
         <module name="Indentation">
             <property name="basicOffset" value="4"/>
             <property name="braceAdjustment" value="0"/>
