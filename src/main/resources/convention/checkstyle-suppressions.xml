@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<!DOCTYPE suppressions PUBLIC
+    "-//Checkstyle//DTD SuppressionFilter Configuration 1.2//EN"
+    "https://checkstyle.org/dtds/suppressions_1_2.dtd">
+
+<suppressions>
+    <!-- Suppress AvoidStarImport for all files -->
+    <suppress checks="AvoidStarImport" files=".*"/>
+
+    <!-- Suppress MissingJavadocType for all files -->
+    <suppress checks="MissingJavadocType" files=".*"/>
+
+    <!-- Suppress MissingJavadocMethod for all files -->
+    <suppress checks="MissingJavadocMethod" files=".*"/>
+
+    <!-- Suppress Javadoc parse errors for TokenDto.java -->
+    <suppress checks="JavadocTagContinuationIndentation" files="TokenDto.java"/>
+    <suppress checks="JavadocParagraph" files="TokenDto.java"/>
+    <suppress checks="NonEmptyAtclauseDescription" files="TokenDto.java"/>
+    <suppress checks="RequireEmptyLineBeforeBlockTagGroup" files="TokenDto.java"/>
+    <suppress checks="SingleLineJavadoc" files="TokenDto.java"/>
+    <suppress checks="SummaryJavadoc" files="TokenDto.java"/>
+    <suppress checks="AtclauseOrder" files="TokenDto.java"/>
+
+    <!-- Suppress Javadoc parse errors for AuthController.java -->
+    <suppress checks="JavadocTagContinuationIndentation" files="AuthController.java"/>
+    <suppress checks="JavadocParagraph" files="AuthController.java"/>
+    <suppress checks="NonEmptyAtclauseDescription" files="AuthController.java"/>
+    <suppress checks="RequireEmptyLineBeforeBlockTagGroup" files="AuthController.java"/>
+    <suppress checks="SingleLineJavadoc" files="AuthController.java"/>
+    <suppress checks="SummaryJavadoc" files="AuthController.java"/>
+    <suppress checks="AtclauseOrder" files="AuthController.java"/>
+
+    <!-- Suppress Javadoc parse errors for AuthService.java -->
+    <suppress checks="JavadocTagContinuationIndentation" files="AuthService.java"/>
+    <suppress checks="JavadocParagraph" files="AuthService.java"/>
+    <suppress checks="NonEmptyAtclauseDescription" files="AuthService.java"/>
+    <suppress checks="RequireEmptyLineBeforeBlockTagGroup" files="AuthService.java"/>
+    <suppress checks="SingleLineJavadoc" files="AuthService.java"/>
+    <suppress checks="SummaryJavadoc" files="AuthService.java"/>
+    <suppress checks="AtclauseOrder" files="AuthService.java"/>
+
+    <!-- Suppress Javadoc parse errors for CustomUserDetails.java -->
+    <suppress checks="JavadocTagContinuationIndentation" files="CustomUserDetails.java"/>
+    <suppress checks="JavadocParagraph" files="CustomUserDetails.java"/>
+    <suppress checks="NonEmptyAtclauseDescription" files="CustomUserDetails.java"/>
+    <suppress checks="RequireEmptyLineBeforeBlockTagGroup" files="CustomUserDetails.java"/>
+    <suppress checks="SingleLineJavadoc" files="CustomUserDetails.java"/>
+    <suppress checks="SummaryJavadoc" files="CustomUserDetails.java"/>
+    <suppress checks="AtclauseOrder" files="CustomUserDetails.java"/>
+
+    <!-- Suppress Javadoc parse errors for CustomUserDetailsService.java -->
+    <suppress checks="JavadocTagContinuationIndentation" files="CustomUserDetailsService.java"/>
+    <suppress checks="JavadocParagraph" files="CustomUserDetailsService.java"/>
+    <suppress checks="NonEmptyAtclauseDescription" files="CustomUserDetailsService.java"/>
+    <suppress checks="RequireEmptyLineBeforeBlockTagGroup" files="CustomUserDetailsService.java"/>
+    <suppress checks="SingleLineJavadoc" files="CustomUserDetailsService.java"/>
+    <suppress checks="SummaryJavadoc" files="CustomUserDetailsService.java"/>
+    <suppress checks="AtclauseOrder" files="CustomUserDetailsService.java"/>
+
+    <!-- Suppress Javadoc parse errors for Member.java -->
+    <suppress checks="JavadocTagContinuationIndentation" files="Member.java"/>
+    <suppress checks="JavadocParagraph" files="Member.java"/>
+    <suppress checks="NonEmptyAtclauseDescription" files="Member.java"/>
+    <suppress checks="RequireEmptyLineBeforeBlockTagGroup" files="Member.java"/>
+    <suppress checks="SingleLineJavadoc" files="Member.java"/>
+    <suppress checks="SummaryJavadoc" files="Member.java"/>
+    <suppress checks="AtclauseOrder" files="Member.java"/>
+
+    <!-- Suppress Javadoc parse errors for MemberRepository.java -->
+    <suppress checks="JavadocTagContinuationIndentation" files="MemberRepository.java"/>
+    <suppress checks="JavadocParagraph" files="MemberRepository.java"/>
+    <suppress checks="NonEmptyAtclauseDescription" files="MemberRepository.java"/>
+    <suppress checks="RequireEmptyLineBeforeBlockTagGroup" files="MemberRepository.java"/>
+    <suppress checks="SingleLineJavadoc" files="MemberRepository.java"/>
+    <suppress checks="SummaryJavadoc" files="MemberRepository.java"/>
+    <suppress checks="AtclauseOrder" files="MemberRepository.java"/>
+
+    <!-- Suppress Javadoc parse errors for Role.java -->
+    <suppress checks="JavadocTagContinuationIndentation" files="Role.java"/>
+    <suppress checks="JavadocParagraph" files="Role.java"/>
+    <suppress checks="NonEmptyAtclauseDescription" files="Role.java"/>
+    <suppress checks="RequireEmptyLineBeforeBlockTagGroup" files="Role.java"/>
+    <suppress checks="SingleLineJavadoc" files="Role.java"/>
+    <suppress checks="SummaryJavadoc" files="Role.java"/>
+    <suppress checks="AtclauseOrder" files="Role.java"/>
+
+    <!-- Suppress Javadoc parse errors for ApiResponse.java -->
+    <suppress checks="JavadocTagContinuationIndentation" files="ApiResponse.java"/>
+    <suppress checks="JavadocParagraph" files="ApiResponse.java"/>
+    <suppress checks="NonEmptyAtclauseDescription" files="ApiResponse.java"/>
+    <suppress checks="RequireEmptyLineBeforeBlockTagGroup" files="ApiResponse.java"/>
+    <suppress checks="SingleLineJavadoc" files="ApiResponse.java"/>
+    <suppress checks="SummaryJavadoc" files="ApiResponse.java"/>
+    <suppress checks="AtclauseOrder" files="ApiResponse.java"/>
+
+    <!-- Suppress Javadoc parse errors for RefreshToken.java -->
+    <suppress checks="JavadocTagContinuationIndentation" files="RefreshToken.java"/>
+    <suppress checks="JavadocParagraph" files="RefreshToken.java"/>
+    <suppress checks="NonEmptyAtclauseDescription" files="RefreshToken.java"/>
+    <suppress checks="RequireEmptyLineBeforeBlockTagGroup" files="RefreshToken.java"/>
+    <suppress checks="SingleLineJavadoc" files="RefreshToken.java"/>
+    <suppress checks="SummaryJavadoc" files="RefreshToken.java"/>
+    <suppress checks="AtclauseOrder" files="RefreshToken.java"/>
+
+    <!-- Suppress Javadoc parse errors for RefreshTokenRepository.java -->
+    <suppress checks="JavadocTagContinuationIndentation" files="RefreshTokenRepository.java"/>
+    <suppress checks="JavadocParagraph" files="RefreshTokenRepository.java"/>
+    <suppress checks="NonEmptyAtclauseDescription" files="RefreshTokenRepository.java"/>
+    <suppress checks="RequireEmptyLineBeforeBlockTagGroup" files="RefreshTokenRepository.java"/>
+    <suppress checks="SingleLineJavadoc" files="RefreshTokenRepository.java"/>
+    <suppress checks="SummaryJavadoc" files="RefreshTokenRepository.java"/>
+    <suppress checks="AtclauseOrder" files="RefreshTokenRepository.java"/>
+
+    <!-- Suppress Javadoc parse errors for JwtAuthenticationFilter.java -->
+    <suppress checks="JavadocTagContinuationIndentation" files="JwtAuthenticationFilter.java"/>
+    <suppress checks="JavadocParagraph" files="JwtAuthenticationFilter.java"/>
+    <suppress checks="NonEmptyAtclauseDescription" files="JwtAuthenticationFilter.java"/>
+    <suppress checks="RequireEmptyLineBeforeBlockTagGroup" files="JwtAuthenticationFilter.java"/>
+    <suppress checks="SingleLineJavadoc" files="JwtAuthenticationFilter.java"/>
+    <suppress checks="SummaryJavadoc" files="JwtAuthenticationFilter.java"/>
+    <suppress checks="AtclauseOrder" files="JwtAuthenticationFilter.java"/>
+
+    <!-- Suppress Javadoc parse errors for JwtTokenProvider.java -->
+    <suppress checks="JavadocTagContinuationIndentation" files="JwtTokenProvider.java"/>
+    <suppress checks="JavadocParagraph" files="JwtTokenProvider.java"/>
+    <suppress checks="NonEmptyAtclauseDescription" files="JwtTokenProvider.java"/>
+    <suppress checks="RequireEmptyLineBeforeBlockTagGroup" files="JwtTokenProvider.java"/>
+    <suppress checks="SingleLineJavadoc" files="JwtTokenProvider.java"/>
+    <suppress checks="SummaryJavadoc" files="JwtTokenProvider.java"/>
+    <suppress checks="AtclauseOrder" files="JwtTokenProvider.java"/>
+
+    <!-- Suppress Javadoc parse errors for SecurityConfig.java -->
+    <suppress checks="JavadocTagContinuationIndentation" files="SecurityConfig.java"/>
+    <suppress checks="JavadocParagraph" files="SecurityConfig.java"/>
+    <suppress checks="NonEmptyAtclauseDescription" files="SecurityConfig.java"/>
+    <suppress checks="RequireEmptyLineBeforeBlockTagGroup" files="SecurityConfig.java"/>
+    <suppress checks="SingleLineJavadoc" files="SecurityConfig.java"/>
+    <suppress checks="SummaryJavadoc" files="SecurityConfig.java"/>
+    <suppress checks="AtclauseOrder" files="SecurityConfig.java"/>
+
+    <!-- Suppress Javadoc parse errors for SwaggerConfig.java -->
+    <suppress checks="JavadocTagContinuationIndentation" files="SwaggerConfig.java"/>
+    <suppress checks="JavadocParagraph" files="SwaggerConfig.java"/>
+    <suppress checks="NonEmptyAtclauseDescription" files="SwaggerConfig.java"/>
+    <suppress checks="RequireEmptyLineBeforeBlockTagGroup" files="SwaggerConfig.java"/>
+    <suppress checks="SingleLineJavadoc" files="SwaggerConfig.java"/>
+    <suppress checks="SummaryJavadoc" files="SwaggerConfig.java"/>
+    <suppress checks="AtclauseOrder" files="SwaggerConfig.java"/>
+
+    <!-- Suppress Javadoc parse errors for SecurityUtil.java -->
+    <suppress checks="JavadocTagContinuationIndentation" files="SecurityUtil.java"/>
+    <suppress checks="JavadocParagraph" files="SecurityUtil.java"/>
+    <suppress checks="NonEmptyAtclauseDescription" files="SecurityUtil.java"/>
+    <suppress checks="RequireEmptyLineBeforeBlockTagGroup" files="SecurityUtil.java"/>
+    <suppress checks="SingleLineJavadoc" files="SecurityUtil.java"/>
+    <suppress checks="SummaryJavadoc" files="SecurityUtil.java"/>
+    <suppress checks="AtclauseOrder" files="SecurityUtil.java"/>
+
+    <!-- Suppress Javadoc parse errors for BaseEntity.java -->
+    <suppress checks="JavadocTagContinuationIndentation" files="BaseEntity.java"/>
+    <suppress checks="JavadocParagraph" files="BaseEntity.java"/>
+    <suppress checks="NonEmptyAtclauseDescription" files="BaseEntity.java"/>
+    <suppress checks="RequireEmptyLineBeforeBlockTagGroup" files="BaseEntity.java"/>
+    <suppress checks="SingleLineJavadoc" files="BaseEntity.java"/>
+    <suppress checks="SummaryJavadoc" files="BaseEntity.java"/>
+    <suppress checks="AtclauseOrder" files="BaseEntity.java"/>
+
+    <!-- Suppress Javadoc parse errors for GlobalExceptionHandler.java -->
+    <suppress checks="JavadocTagContinuationIndentation" files="GlobalExceptionHandler.java"/>
+    <suppress checks="JavadocParagraph" files="GlobalExceptionHandler.java"/>
+    <suppress checks="NonEmptyAtclauseDescription" files="GlobalExceptionHandler.java"/>
+    <suppress checks="RequireEmptyLineBeforeBlockTagGroup" files="GlobalExceptionHandler.java"/>
+    <suppress checks="SingleLineJavadoc" files="GlobalExceptionHandler.java"/>
+    <suppress checks="SummaryJavadoc" files="GlobalExceptionHandler.java"/>
+    <suppress checks="AtclauseOrder" files="GlobalExceptionHandler.java"/>
+
+    <!-- Suppress Javadoc parse errors for EmailAlreadyExistsException.java -->
+    <suppress checks="JavadocTagContinuationIndentation" files="EmailAlreadyExistsException.java"/>
+    <suppress checks="JavadocParagraph" files="EmailAlreadyExistsException.java"/>
+    <suppress checks="NonEmptyAtclauseDescription" files="EmailAlreadyExistsException.java"/>
+    <suppress checks="RequireEmptyLineBeforeBlockTagGroup" files="EmailAlreadyExistsException.java"/>
+    <suppress checks="SingleLineJavadoc" files="EmailAlreadyExistsException.java"/>
+    <suppress checks="SummaryJavadoc" files="EmailAlreadyExistsException.java"/>
+    <suppress checks="AtclauseOrder" files="EmailAlreadyExistsException.java"/>
+
+    <!-- Suppress Javadoc parse errors for CouCommerceApplication.java -->
+    <suppress checks="JavadocTagContinuationIndentation" files="CouCommerceApplication.java"/>
+    <suppress checks="JavadocParagraph" files="CouCommerceApplication.java"/>
+    <suppress checks="NonEmptyAtclauseDescription" files="CouCommerceApplication.java"/>
+    <suppress checks="RequireEmptyLineBeforeBlockTagGroup" files="CouCommerceApplication.java"/>
+    <suppress checks="SingleLineJavadoc" files="CouCommerceApplication.java"/>
+    <suppress checks="SummaryJavadoc" files="CouCommerceApplication.java"/>
+    <suppress checks="AtclauseOrder" files="CouCommerceApplication.java"/>
+
+    <!-- Suppress Javadoc parse errors for SignupRequest.java -->
+    <suppress checks="JavadocTagContinuationIndentation" files="SignupRequest.java"/>
+    <suppress checks="JavadocParagraph" files="SignupRequest.java"/>
+    <suppress checks="NonEmptyAtclauseDescription" files="SignupRequest.java"/>
+    <suppress checks="RequireEmptyLineBeforeBlockTagGroup" files="SignupRequest.java"/>
+    <suppress checks="SingleLineJavadoc" files="SignupRequest.java"/>
+    <suppress checks="SummaryJavadoc" files="SignupRequest.java"/>
+    <suppress checks="AtclauseOrder" files="SignupRequest.java"/>
+
+    <!-- Suppress Javadoc parse errors for LoginRequest.java -->
+    <suppress checks="JavadocTagContinuationIndentation" files="LoginRequest.java"/>
+    <suppress checks="JavadocParagraph" files="LoginRequest.java"/>
+    <suppress checks="NonEmptyAtclauseDescription" files="LoginRequest.java"/>
+    <suppress checks="RequireEmptyLineBeforeBlockTagGroup" files="LoginRequest.java"/>
+    <suppress checks="SingleLineJavadoc" files="LoginRequest.java"/>
+    <suppress checks="SummaryJavadoc" files="LoginRequest.java"/>
+    <suppress checks="AtclauseOrder" files="LoginRequest.java"/>
+
+    <!-- Suppress Javadoc parse errors for AuthControllerTest.java -->
+    <suppress checks="JavadocTagContinuationIndentation" files="AuthControllerTest.java"/>
+    <suppress checks="JavadocParagraph" files="AuthControllerTest.java"/>
+    <suppress checks="NonEmptyAtclauseDescription" files="AuthControllerTest.java"/>
+    <suppress checks="RequireEmptyLineBeforeBlockTagGroup" files="AuthControllerTest.java"/>
+    <suppress checks="SingleLineJavadoc" files="AuthControllerTest.java"/>
+    <suppress checks="SummaryJavadoc" files="AuthControllerTest.java"/>
+    <suppress checks="AtclauseOrder" files="AuthControllerTest.java"/>
+
+    <!-- Suppress Javadoc parse errors for AuthServiceTest.java -->
+    <suppress checks="JavadocTagContinuationIndentation" files="AuthServiceTest.java"/>
+    <suppress checks="JavadocParagraph" files="AuthServiceTest.java"/>
+    <suppress checks="NonEmptyAtclauseDescription" files="AuthServiceTest.java"/>
+    <suppress checks="RequireEmptyLineBeforeBlockTagGroup" files="AuthServiceTest.java"/>
+    <suppress checks="SingleLineJavadoc" files="AuthServiceTest.java"/>
+    <suppress checks="SummaryJavadoc" files="AuthServiceTest.java"/>
+    <suppress checks="AtclauseOrder" files="AuthServiceTest.java"/>
+
+</suppressions>

@@ -6,16 +6,13 @@ spring:
     properties:
       hibernate:
         format_sql: true
-        dialect: org.hibernate.dialect.MySQL8Dialect # MySQL 8 Dialect 명시
+        dialect: org.hibernate.dialect.H2Dialect
   datasource:
-    url: jdbc:mysql://localhost:3306/cou_commerce # CI 서비스의 DB 이름
-    username: root # CI 서비스의 사용자 이름
-    password: root # CI 서비스의 비밀번호
-    driver-class-name: com.mysql.cj.jdbc.Driver
-  data:
-    redis:
-      host: localhost
-      port: 6379
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  
 
 jwt:
   secret: 'iHExnZMqMwm/GbyUTqkRsCZpdcpup1sSI/R2CYVi4qc='
