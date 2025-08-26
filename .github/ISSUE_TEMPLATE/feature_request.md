@@ -1,7 +1,7 @@
 ---
 name: 기능 요청 (Feature Request)
 about: 새로운 기능 아이디어를 제안해주세요.
-title: "[#이슈번호] feat: "
+title: "[#이슈번호][FEATURE] "
 labels: enhancement, feature
 assignees: ''
 ---

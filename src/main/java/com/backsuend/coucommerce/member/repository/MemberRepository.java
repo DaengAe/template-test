@@ -1,13 +1,11 @@
 package com.backsuend.coucommerce.member.repository;
 
+import com.backsuend.coucommerce.member.domain.Member;
 import java.util.Optional;
-
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.backsuend.coucommerce.member.domain.Member;
-
 public interface MemberRepository extends JpaRepository<Member, Long> {
-	Optional<Member> findByEmail(String email);
+  Optional<Member> findByEmail(String email);
 
-	boolean existsByEmail(String email);
+  boolean existsByEmail(String email);
 }

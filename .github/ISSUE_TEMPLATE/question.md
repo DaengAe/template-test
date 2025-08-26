@@ -1,7 +1,7 @@
 ---
 name: 질문 / 논의 (Question / Discussion)
 about: 코드, 설계, 또는 일반적인 논의를 위한 질문입니다.
-title: "[Q] "
+title: "[QUESTION] "
 labels: question
 assignees: ''
 ---
